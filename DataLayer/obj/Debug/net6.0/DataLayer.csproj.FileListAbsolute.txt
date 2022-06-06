@@ -1,0 +1,15 @@
+C:\Users\josem\source\repos\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+C:\Users\josem\source\repos\DataLayer\bin\Debug\net6.0\DataLayer.dll
+C:\Users\josem\source\repos\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+C:\Users\josem\source\repos\DataLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\josem\source\repos\DataLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CopyComplete
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.dll
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+C:\Users\josem\source\repos\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll

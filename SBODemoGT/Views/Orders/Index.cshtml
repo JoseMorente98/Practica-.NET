@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Pedidos</h1>
+
+<form method="post" id="formFilterOrder" class="mb-3">
+  <div class="row">  
+      <div class="col-md-6">
+           <div class="form-group">
+            <label>Fecha Inicio</label>
+            <input type="text" class="form-control" name="dateInit" placeholder="YYYY-MM-DD">
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="form-group">
+            <label>Fecha Fin</label>
+            <input type="text" class="form-control" name="dateFinish" placeholder="YYYY-MM-DD">
+          </div>
+      </div>
+  </div>
+ <div class="row">  
+    <div class="col-md-6">
+          <div class="form-group">
+            <label for="selectGroup">Seleccionar Grupo</label>
+            <select class="form-control" id="selectGroup" name="groupNum" >
+            </select>
+          </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="selectClient">Seleccionar Cliente</label>
+            <select class="form-control" id="selectClient" name="cardCode" >
+            </select>
+          </div>
+    </div>
+ </div>
+ <button type="button" class="btn btn-primary" onclick="filtrar()">Filtrar</button>
+  <button type="button" class="btn btn-secondary" onclick="limpiarFormulario()">Limpiar</button>
+</form>
+
+<div id="orders">
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detalle de Factura</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="detalle">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="~/js/main.js"></script>
+<script src="~/js/pedidos.js"></script>
